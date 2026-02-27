@@ -1,0 +1,26 @@
+{
+  "R1": {
+    "isc": {
+      "v0_mean": 0.0589,
+      "other_mean": 0.3852,
+      "U": 1857.0,
+      "p": 0.0,
+      "v0_is_lowest": true
+    },
+    "osd": {
+      "v0_mean": 0.3115,
+      "other_mean": 0.4171,
+      "U": 1909.5,
+      "p": 0.0,
+      "v0_is_lowest": true
+    },
+    "ri": {
+      "v0_mean": 0.3253,
+      "other_mean": 0.8716,
+      "U": 80.0,
+      "p": 0.0,
+      "v0_is_lowest": true
+    }
+  },
+  "passes": true
+}

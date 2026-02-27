@@ -1,0 +1,17 @@
+{
+  "V2": {
+    "mean_pd": 0.435,
+    "std_pd": 0.1037,
+    "t": 52.9038,
+    "p": 0.0,
+    "significantly_positive": true
+  },
+  "V3": {
+    "mean_pd": 0.3814,
+    "std_pd": 0.0936,
+    "t": 51.3806,
+    "p": 0.0,
+    "significantly_positive": true
+  },
+  "passes": true
+}

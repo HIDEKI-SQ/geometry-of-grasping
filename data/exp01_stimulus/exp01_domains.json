@@ -1,0 +1,546 @@
+{
+  "S1": {
+    "domain": "thermodynamics",
+    "domain_label": "Thermodynamics",
+    "concepts": {
+      "temperature": "Temperature is a measure of the average kinetic energy of particles in a system.",
+      "heat": "Heat is the transfer of thermal energy between systems due to a temperature difference.",
+      "work": "Work in thermodynamics is energy transfer via macroscopic forces.",
+      "internal_energy": "Internal energy is the total microscopic kinetic and potential energy of a system.",
+      "entropy": "Entropy is a measure of the number of accessible microstates; it quantifies disorder.",
+      "zeroth_law": "The zeroth law: if A is in thermal equilibrium with B, and B with C, then A with C.",
+      "first_law": "The first law: change in internal energy equals heat added minus work done.",
+      "second_law": "The second law: total entropy of an isolated system never decreases.",
+      "third_law": "The third law: as temperature approaches absolute zero, entropy approaches a minimum.",
+      "equilibrium": "Thermal equilibrium is the state where no net heat flows between systems.",
+      "carnot_cycle": "The Carnot cycle is an idealized cycle that sets maximum efficiency for heat engines.",
+      "efficiency": "Thermodynamic efficiency is the ratio of useful work output to total heat input.",
+      "heat_engine": "A heat engine converts heat from a hot reservoir into work.",
+      "refrigerator": "A refrigerator transfers heat from cold to hot reservoir, requiring work input.",
+      "enthalpy": "Enthalpy H = U + PV measures heat content at constant pressure.",
+      "free_energy": "Gibbs free energy G = H - TS determines spontaneity at constant T and P.",
+      "reversible": "A reversible process proceeds through equilibrium states.",
+      "irreversible": "An irreversible process generates entropy and cannot be exactly reversed.",
+      "absolute_zero": "Absolute zero (0 K) is the theoretical lowest temperature.",
+      "phase_transition": "A phase transition is a change of state at specific temperature and pressure."
+    },
+    "tau_edges": [
+      [
+        "temperature",
+        "zeroth_law"
+      ],
+      [
+        "temperature",
+        "heat"
+      ],
+      [
+        "heat",
+        "first_law"
+      ],
+      [
+        "work",
+        "first_law"
+      ],
+      [
+        "internal_energy",
+        "first_law"
+      ],
+      [
+        "entropy",
+        "second_law"
+      ],
+      [
+        "entropy",
+        "third_law"
+      ],
+      [
+        "temperature",
+        "third_law"
+      ],
+      [
+        "absolute_zero",
+        "third_law"
+      ],
+      [
+        "equilibrium",
+        "zeroth_law"
+      ],
+      [
+        "first_law",
+        "enthalpy"
+      ],
+      [
+        "first_law",
+        "heat_engine"
+      ],
+      [
+        "second_law",
+        "carnot_cycle"
+      ],
+      [
+        "second_law",
+        "irreversible"
+      ],
+      [
+        "second_law",
+        "free_energy"
+      ],
+      [
+        "enthalpy",
+        "free_energy"
+      ],
+      [
+        "entropy",
+        "free_energy"
+      ],
+      [
+        "temperature",
+        "free_energy"
+      ],
+      [
+        "carnot_cycle",
+        "efficiency"
+      ],
+      [
+        "heat_engine",
+        "efficiency"
+      ],
+      [
+        "heat_engine",
+        "refrigerator"
+      ],
+      [
+        "second_law",
+        "refrigerator"
+      ],
+      [
+        "equilibrium",
+        "reversible"
+      ],
+      [
+        "reversible",
+        "irreversible"
+      ],
+      [
+        "reversible",
+        "carnot_cycle"
+      ],
+      [
+        "temperature",
+        "phase_transition"
+      ],
+      [
+        "entropy",
+        "phase_transition"
+      ],
+      [
+        "free_energy",
+        "phase_transition"
+      ]
+    ]
+  },
+  "S2": {
+    "domain": "evolution",
+    "domain_label": "Evolutionary Biology",
+    "concepts": {
+      "variation": "Variation: differences in traits among individuals in a population.",
+      "heredity": "Heredity: passing of traits from parents to offspring through genes.",
+      "mutation": "Mutation: random change in DNA introducing new genetic variants.",
+      "natural_selection": "Natural selection: differential survival and reproduction based on fitness.",
+      "fitness": "Fitness: relative reproductive success in a given environment.",
+      "adaptation": "Adaptation: trait shaped by selection that improves fitness.",
+      "gene": "A gene: segment of DNA encoding instructions for a functional product.",
+      "allele": "An allele: one of multiple forms of a gene at a specific locus.",
+      "genotype": "Genotype: the complete set of alleles an organism carries.",
+      "phenotype": "Phenotype: observable characteristics from genotype-environment interaction.",
+      "population": "A population: group of interbreeding organisms of the same species.",
+      "genetic_drift": "Genetic drift: random allele frequency changes, stronger in small populations.",
+      "speciation": "Speciation: formation of new species through reproductive isolation.",
+      "reproductive_isolation": "Reproductive isolation: prevents gene flow between populations.",
+      "sexual_selection": "Sexual selection: favors traits increasing mating success.",
+      "gene_flow": "Gene flow: transfer of alleles between populations through migration.",
+      "common_descent": "Common descent: all species share ancestors, forming a tree of life.",
+      "fossil_record": "Fossil record: physical evidence of organisms from past periods.",
+      "homology": "Homology: shared structures inherited from a common ancestor.",
+      "coevolution": "Coevolution: reciprocal evolutionary change between interacting species."
+    },
+    "tau_edges": [
+      [
+        "gene",
+        "allele"
+      ],
+      [
+        "allele",
+        "genotype"
+      ],
+      [
+        "genotype",
+        "phenotype"
+      ],
+      [
+        "mutation",
+        "variation"
+      ],
+      [
+        "gene",
+        "heredity"
+      ],
+      [
+        "heredity",
+        "variation"
+      ],
+      [
+        "variation",
+        "natural_selection"
+      ],
+      [
+        "fitness",
+        "natural_selection"
+      ],
+      [
+        "natural_selection",
+        "adaptation"
+      ],
+      [
+        "population",
+        "natural_selection"
+      ],
+      [
+        "population",
+        "genetic_drift"
+      ],
+      [
+        "allele",
+        "genetic_drift"
+      ],
+      [
+        "natural_selection",
+        "speciation"
+      ],
+      [
+        "reproductive_isolation",
+        "speciation"
+      ],
+      [
+        "gene_flow",
+        "reproductive_isolation"
+      ],
+      [
+        "population",
+        "gene_flow"
+      ],
+      [
+        "fitness",
+        "sexual_selection"
+      ],
+      [
+        "natural_selection",
+        "sexual_selection"
+      ],
+      [
+        "common_descent",
+        "homology"
+      ],
+      [
+        "natural_selection",
+        "common_descent"
+      ],
+      [
+        "speciation",
+        "common_descent"
+      ],
+      [
+        "fossil_record",
+        "common_descent"
+      ],
+      [
+        "adaptation",
+        "coevolution"
+      ],
+      [
+        "natural_selection",
+        "coevolution"
+      ],
+      [
+        "phenotype",
+        "fitness"
+      ],
+      [
+        "phenotype",
+        "natural_selection"
+      ]
+    ]
+  },
+  "S3": {
+    "domain": "industrial_revolution",
+    "domain_label": "Industrial Revolution (1760-1840)",
+    "concepts": {
+      "steam_engine": "The steam engine converted heat into mechanical motion.",
+      "textile_mills": "Textile mills centralized spinning and weaving.",
+      "coal_mining": "Coal mining expanded to fuel steam engines and iron smelting.",
+      "iron_production": "Iron production grew with coke-smelting techniques.",
+      "factory_system": "The factory system concentrated workers and machines in buildings.",
+      "urbanization": "Urbanization: mass migration from rural areas to industrial cities.",
+      "wage_labor": "Wage labor replaced subsistence farming.",
+      "child_labor": "Child labor was widespread in factories and mines.",
+      "labor_unions": "Labor unions formed to bargain for better conditions.",
+      "enclosure": "Enclosure acts privatized common lands, displacing farmers.",
+      "agricultural_rev": "Agricultural improvements increased food supply.",
+      "population_growth": "Population growth accelerated from better nutrition.",
+      "canals": "Canal networks enabled cheap bulk transport.",
+      "railways": "Railways revolutionized land transport.",
+      "capital": "Capital accumulation funded new ventures.",
+      "patents": "The patent system incentivized invention.",
+      "division_of_labor": "Division of labor broke production into specialized tasks.",
+      "pollution": "Industrial pollution fouled air and water.",
+      "class_structure": "Class structure polarized into owners and workers.",
+      "global_trade": "Global trade expanded with manufactured goods."
+    },
+    "tau_edges": [
+      [
+        "enclosure",
+        "agricultural_rev"
+      ],
+      [
+        "agricultural_rev",
+        "population_growth"
+      ],
+      [
+        "enclosure",
+        "wage_labor"
+      ],
+      [
+        "population_growth",
+        "urbanization"
+      ],
+      [
+        "coal_mining",
+        "steam_engine"
+      ],
+      [
+        "steam_engine",
+        "textile_mills"
+      ],
+      [
+        "steam_engine",
+        "iron_production"
+      ],
+      [
+        "steam_engine",
+        "railways"
+      ],
+      [
+        "iron_production",
+        "railways"
+      ],
+      [
+        "textile_mills",
+        "factory_system"
+      ],
+      [
+        "factory_system",
+        "wage_labor"
+      ],
+      [
+        "factory_system",
+        "child_labor"
+      ],
+      [
+        "factory_system",
+        "division_of_labor"
+      ],
+      [
+        "factory_system",
+        "urbanization"
+      ],
+      [
+        "wage_labor",
+        "labor_unions"
+      ],
+      [
+        "child_labor",
+        "labor_unions"
+      ],
+      [
+        "urbanization",
+        "pollution"
+      ],
+      [
+        "factory_system",
+        "pollution"
+      ],
+      [
+        "coal_mining",
+        "canals"
+      ],
+      [
+        "canals",
+        "railways"
+      ],
+      [
+        "capital",
+        "factory_system"
+      ],
+      [
+        "capital",
+        "global_trade"
+      ],
+      [
+        "patents",
+        "steam_engine"
+      ],
+      [
+        "division_of_labor",
+        "class_structure"
+      ],
+      [
+        "wage_labor",
+        "class_structure"
+      ],
+      [
+        "factory_system",
+        "global_trade"
+      ],
+      [
+        "railways",
+        "global_trade"
+      ]
+    ]
+  },
+  "S4": {
+    "domain": "group_theory",
+    "domain_label": "Group Theory (Abstract Algebra)",
+    "concepts": {
+      "set": "A set is a well-defined collection of distinct elements.",
+      "binary_operation": "A binary operation combines two elements to produce a third.",
+      "closure": "Closure: applying the operation to group elements yields a group element.",
+      "associativity": "Associativity: (a*b)*c = a*(b*c) for all elements.",
+      "identity_element": "The identity element e satisfies a*e = e*a = a.",
+      "inverse": "For every a, there exists inverse a_inv such that a*a_inv = e.",
+      "group": "A group: set + operation satisfying closure, associativity, identity, inverse.",
+      "abelian": "An abelian group additionally satisfies a*b = b*a.",
+      "subgroup": "A subgroup is a subset that is itself a group.",
+      "cyclic_group": "A cyclic group is generated by a single element.",
+      "order": "Order of a group: its number of elements.",
+      "coset": "A coset: set formed by multiplying subgroup elements by a fixed element.",
+      "normal_subgroup": "A normal subgroup N satisfies gNg_inv = N for all g.",
+      "quotient_group": "A quotient group G/N is formed from cosets of normal subgroup N.",
+      "homomorphism": "A homomorphism preserves the operation: f(a*b) = f(a)*f(b).",
+      "isomorphism": "An isomorphism is a bijective homomorphism.",
+      "kernel": "The kernel of f is {g: f(g) = identity}; always a normal subgroup.",
+      "lagrange_theorem": "Lagrange: the order of a subgroup divides the order of the group.",
+      "permutation_group": "A permutation group: bijections on a set, under composition.",
+      "symmetry": "Symmetry transformations form a group; group theory = math of symmetry."
+    },
+    "tau_edges": [
+      [
+        "set",
+        "binary_operation"
+      ],
+      [
+        "binary_operation",
+        "closure"
+      ],
+      [
+        "closure",
+        "group"
+      ],
+      [
+        "associativity",
+        "group"
+      ],
+      [
+        "identity_element",
+        "group"
+      ],
+      [
+        "inverse",
+        "group"
+      ],
+      [
+        "group",
+        "abelian"
+      ],
+      [
+        "group",
+        "subgroup"
+      ],
+      [
+        "group",
+        "order"
+      ],
+      [
+        "subgroup",
+        "cyclic_group"
+      ],
+      [
+        "identity_element",
+        "cyclic_group"
+      ],
+      [
+        "order",
+        "cyclic_group"
+      ],
+      [
+        "subgroup",
+        "coset"
+      ],
+      [
+        "coset",
+        "normal_subgroup"
+      ],
+      [
+        "subgroup",
+        "normal_subgroup"
+      ],
+      [
+        "normal_subgroup",
+        "quotient_group"
+      ],
+      [
+        "coset",
+        "quotient_group"
+      ],
+      [
+        "group",
+        "homomorphism"
+      ],
+      [
+        "homomorphism",
+        "isomorphism"
+      ],
+      [
+        "homomorphism",
+        "kernel"
+      ],
+      [
+        "kernel",
+        "normal_subgroup"
+      ],
+      [
+        "subgroup",
+        "lagrange_theorem"
+      ],
+      [
+        "order",
+        "lagrange_theorem"
+      ],
+      [
+        "group",
+        "permutation_group"
+      ],
+      [
+        "binary_operation",
+        "permutation_group"
+      ],
+      [
+        "group",
+        "symmetry"
+      ],
+      [
+        "permutation_group",
+        "symmetry"
+      ]
+    ]
+  }
+}

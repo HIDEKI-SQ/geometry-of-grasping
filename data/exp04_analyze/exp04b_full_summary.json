@@ -1,0 +1,127 @@
+{
+  "exp04b_R1_test": {
+    "R1": {
+      "isc": {
+        "v0_mean": 0.0589,
+        "other_mean": 0.3852,
+        "U": 1857.0,
+        "p": 0.0,
+        "v0_is_lowest": true
+      },
+      "osd": {
+        "v0_mean": 0.3115,
+        "other_mean": 0.4171,
+        "U": 1909.5,
+        "p": 0.0,
+        "v0_is_lowest": true
+      },
+      "ri": {
+        "v0_mean": 0.3253,
+        "other_mean": 0.8716,
+        "U": 80.0,
+        "p": 0.0,
+        "v0_is_lowest": true
+      }
+    },
+    "passes": true
+  },
+  "exp04b_R2_test": {
+    "isc": {
+      "means": {
+        "0": 0.0589,
+        "1": 0.4173,
+        "2": 0.3253,
+        "3": 0.4371
+      },
+      "monotonic": false,
+      "R2": 0.1181,
+      "slope": 0.0967,
+      "pairwise": [
+        {
+          "cmp": "0v1",
+          "p": 0.0
+        },
+        {
+          "cmp": "1v2",
+          "p": 0.99821
+        },
+        {
+          "cmp": "2v3",
+          "p": 1e-06
+        }
+      ]
+    },
+    "osd": {
+      "means": {
+        "0": 0.3115,
+        "1": 0.4535,
+        "2": 0.4084,
+        "3": 0.4167
+      },
+      "monotonic": false,
+      "R2": 0.0418,
+      "slope": 0.0207,
+      "pairwise": [
+        {
+          "cmp": "0v1",
+          "p": 0.0
+        },
+        {
+          "cmp": "1v2",
+          "p": 0.999921
+        },
+        {
+          "cmp": "2v3",
+          "p": 0.333306
+        }
+      ]
+    },
+    "passes": false
+  },
+  "exp04b_R3_test": {
+    "means": {
+      "0": 0.3253,
+      "1": 0.874,
+      "2": 0.8763,
+      "3": 0.8663
+    },
+    "monotonic": false,
+    "R2": 0.3497,
+    "v0_vs_v3_p": 0.0,
+    "passes": true
+  },
+  "exp04b_R4_test": {
+    "V2": {
+      "mean_pd": 0.435,
+      "std_pd": 0.1037,
+      "t": 52.9038,
+      "p": 0.0,
+      "significantly_positive": true
+    },
+    "V3": {
+      "mean_pd": 0.3814,
+      "std_pd": 0.0936,
+      "t": 51.3806,
+      "p": 0.0,
+      "significantly_positive": true
+    },
+    "passes": true
+  },
+  "exp04b_R5_test": {
+    "ssc_peaks_at_v1": {
+      "ssc_v1_vs_v2_p": 0.032495,
+      "ssc_v1_vs_v3_p": 0.052915,
+      "confirmed": true
+    },
+    "isc_continues_rising": {
+      "isc_v1_vs_v2_p": 0.99821,
+      "isc_v1_vs_v3_p": 1e-06
+    },
+    "two_phase_confirmed": true
+  },
+  "original_P1_identity": {
+    "mean_ssc_v0": 0.052,
+    "passes": true,
+    "note": "V0 SSC near zero confirmed"
+  }
+}

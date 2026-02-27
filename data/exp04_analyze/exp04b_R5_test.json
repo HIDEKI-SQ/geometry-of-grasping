@@ -1,0 +1,12 @@
+{
+  "ssc_peaks_at_v1": {
+    "ssc_v1_vs_v2_p": 0.032495,
+    "ssc_v1_vs_v3_p": 0.052915,
+    "confirmed": true
+  },
+  "isc_continues_rising": {
+    "isc_v1_vs_v2_p": 0.99821,
+    "isc_v1_vs_v3_p": 1e-06
+  },
+  "two_phase_confirmed": true
+}
